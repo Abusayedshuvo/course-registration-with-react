@@ -3,14 +3,15 @@ import "./App.css";
 import Cards from "./components/Cards/Cards";
 import Cart from "./components/Cart/Cart";
 import Header from "./components/Header/Header";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [courses, setCourses] = useState([]);
   const handleCourses = (course) => {
     const isExit = courses.find((i) => i.id === course.id);
-    console.log(isExit);
     if (isExit) {
-      return alert("This course already selected");
+      return toast("This course already selected");
     } else {
       setCourses([...courses, course]);
     }
@@ -25,6 +26,7 @@ function App() {
           </div>
           <div className="w-1/4">
             <Cart courses={courses}></Cart>
+            <ToastContainer />
           </div>
         </div>
       </main>
