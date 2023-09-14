@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 import { FaDollarSign, FaBookOpen } from "react-icons/fa";
 
-const Card = ({ card }) => {
-  console.log(card);
+const Card = ({ card, handleCourses }) => {
   const { image, title, price, credit, course_details } = card;
   return (
     <div className="bg-white p-6 rounded-xl space-y-3">
@@ -17,7 +16,10 @@ const Card = ({ card }) => {
           <FaBookOpen className="inline-block" /> Credit : {credit}hr
         </span>
       </div>
-      <button className="bg-[#2F80ED] text-white w-full rounded-xl py-3  text-center">
+      <button
+        onClick={() => handleCourses(card)}
+        className="bg-[#2F80ED] text-white w-full rounded-xl py-3  text-center"
+      >
         Select
       </button>
     </div>
@@ -26,6 +28,7 @@ const Card = ({ card }) => {
 
 Card.propTypes = {
   card: PropTypes.object,
+  handleCourses: PropTypes.func,
 };
 
 export default Card;
