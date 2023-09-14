@@ -1,0 +1,66 @@
+ [
+    {
+      "image": "https://i.ibb.co/hMnz6Lt/01.png",
+      "title": "Introduction to Programming",
+      "price": "$99.99",
+      "credit": "30 hours",
+      "course_details": "Learn the fundamentals of programming and coding with this introductory course. Suitable for beginners."
+    },
+    {
+      "image": "https://i.ibb.co/2k8CCzS/02.png",
+      "title": "Web Development Fundamentals",
+      "price": "$149.99",
+      "credit": "45 hours",
+      "course_details": "Master the basics of web development, including HTML, CSS, and JavaScript, and build your first website."
+    },
+    {
+      "image": "https://i.ibb.co/ZKjJ3F6/03.png",
+      "title": "Data Science Essentials",
+      "price": "$199.99",
+      "credit": "60 hours",
+      "course_details": "Explore the world of data science, learn data analysis, and gain insights from data sets."
+    },
+    {
+      "image": "https://i.ibb.co/qRxNGXN/04.png",
+      "title": "Digital Marketing 101",
+      "price": "$129.99",
+      "credit": "35 hours",
+      "course_details": "Understand digital marketing strategies, SEO, social media, and email marketing."
+    },
+    {
+      "image": "https://i.ibb.co/Yyk7ttS/05.png",
+      "title": "Graphic Design for Beginners",
+      "price": "$89.99",
+      "credit": "25 hours",
+      "course_details": "Start your journey in graphic design, learn Adobe Photoshop, Illustrator, and more."
+    },
+    {
+      "image": "https://i.ibb.co/864HQP2/06.png",
+      "title": "Machine Learning Basics",
+      "price": "$249.99",
+      "credit": "70 hours",
+      "course_details": "Dive into the world of machine learning, understand algorithms, and build predictive models."
+    },
+    {
+      "image": "https://i.ibb.co/tbkd6Rt/07.png",
+      "title": "Business Management Fundamentals",
+      "price": "$179.99",
+      "credit": "50 hours",
+      "course_details": "Develop essential business management skills, from leadership to finance."
+    },
+    {
+      "image": "https://i.ibb.co/Vpy2P27/08.png",
+      "title": "Language Learning: Spanish",
+      "price": "$69.99",
+      "credit": "20 hours",
+      "course_details": "Begin your journey in learning Spanish, from basic phrases to conversations."
+    },
+    {
+      "image": "https://i.ibb.co/mhzSG9x/09.png",
+      "title": "Photography Masterclass",
+      "price": "$159.99",
+      "credit": "40 hours",
+      "course_details": "Unlock your photography potential, learn camera settings, composition, and editing."
+    }
+  ]
+
