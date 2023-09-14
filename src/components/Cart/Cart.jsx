@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 const Cart = ({ courses, totalCredit, remainingCredit, totalPrice }) => {
-  console.log(typeof totalPrice, totalPrice);
   return (
     <div className="bg-white rounded-xl p-5">
       <h2 className="text-lg font-bold text-[#2F80ED]">
