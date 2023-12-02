@@ -1,10 +1,10 @@
 # Add at least 3 Project features
 
-## [ Live Website Link](https://65035422f7731e1a17de4f42--darling-naiad-be482b.netlify.app/)
-
 - This Course Registration Project Build with latest js library React js and Tailwind css
 - For using React this project is less coded and more compact
 - Here all component is dynamic. Also here is cart option. Total cost option show, cart item show.
+
+## [ Live Website Link](https://65035422f7731e1a17de4f42--darling-naiad-be482b.netlify.app/)
 
 # Discuss how you managed the state in your assignment project.
 
